@@ -1,0 +1,41 @@
+body{
+    background-image: url(/img/supercoole.jpg);
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+.cell{
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 150px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#gameContainer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 450px;
+    margin: auto;
+    color: red;
+}
+
+#restartBtn{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+}
